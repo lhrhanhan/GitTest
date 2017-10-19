@@ -13,10 +13,8 @@ Array.prototype.myForEach = function (callback,thisArg) {
             if(Object.hasOwnProperty.call(this,i)){
                 callback(this[i],i,this);
             }
-
-
-     }
-}
+        }
+    }
 
 // array.myForEach(function (value,index,arr) {
 //
